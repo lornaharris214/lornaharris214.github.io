@@ -41,17 +41,24 @@ p {
 /** links ---- **/
 
 .links {
-    text-align: center;
     font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
 }
 
-a:hover {
-    color: azure;
+a {
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
 }
-a:visited {
+
+a:link {
     color: white;
 }
-
+a:visited {
+    color: lightslategrey;
+}
+a:hover {
+    color: palevioletred;
+}
 
 
 /** footer ---- **/
@@ -62,3 +69,6 @@ a:visited {
 footer {
     text-align: center;
 }
+
+
+/** media queries ---- **/
