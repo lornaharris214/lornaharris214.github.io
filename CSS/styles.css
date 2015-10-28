@@ -61,7 +61,7 @@ a:hover {
 }
 
 
-/** footer ---- **/
+/* footer ---- */
 #instagram, #facebook {
     height: 50px;
 }
@@ -70,5 +70,12 @@ footer {
     text-align: center;
 }
 
+/* Clear Fix ---- */
 
-/** media queries ---- **/
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Media queries ---- */
