@@ -1,7 +1,64 @@
-img {
-    width: 50%;
+body {  
+    background: -webkit-linear-gradient(180deg, #000000 10%, #53346D 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(180deg, #000000 10%, #53346D 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(180deg, #000000 10%, #53346D 90%); /* IE10 */
+  background:      -o-linear-gradient(180deg, #000000 10%, #53346D 90%); /* Opera 11.10+ */
+  background:         linear-gradient(180deg, #000000 10%, #53346D 90%); /* W3C */
+background-repeat: no-repeat;
 }
 
-body    {
-    background: lightblue
+#myself {
+    border-radius: 60px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.tagline {
+    
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    color: white;
+}
+
+p {  
+    color: white; 
+    font-family: 'Poiret One', cursive;
+}
+
+/** links ---- **/
+
+.links {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+a:hover {
+    color: azure;
+}
+a:visited {
+    color: white;
+}
+
+
+
+/** footer ---- **/
+#instagram, #facebook {
+    height: 50px;
+}
+
+footer {
+    text-align: center;
 }
