@@ -106,6 +106,13 @@ a:hover {
     color: palevioletred;
 }
 
+/* Clear Fix ---- */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* footer ---- */
 #instagram, #facebook {
@@ -117,12 +124,6 @@ footer {
     text-align: center;
 }
 
-/* Clear Fix ---- */
 
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* Media queries ---- */
