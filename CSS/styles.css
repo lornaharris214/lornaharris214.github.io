@@ -16,6 +16,11 @@ h1 {
     font-size: 70px;
 }
 
+ul {
+    list-style: none;
+    font-family: 'Poiret One', cursive;
+    color: white;
+}
 #myself {
     border-radius: 60px;
     height: 300px;
