@@ -27,9 +27,11 @@ p, blockquote {
     font-family: 'Poiret One', cursive;
 }
 
-ol {
+li {
     color: white;
     font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    display: inline-block;
 }
 
 h2, h3 {
@@ -93,24 +95,15 @@ h2, h3 {
 
 /* links ---- */
 
-.links {
-    font-family: 'Cinzel Decorative', cursive;
-    text-align: center;
-}
-
-a {
-    font-family: 'Cinzel Decorative', cursive;
-    text-align: center;
-}
-
-a:link {
+a:link, a:visited {
     color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    text-decoration: none;
 }
-a:visited {
-    color: lightslategrey;
-}
+
 a:hover {
     color: palevioletred;
+    border-bottom: 2px solid white;
 }
 
 /* Clear Fix ---- */
