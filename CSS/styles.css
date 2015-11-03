@@ -1,3 +1,5 @@
+/* Global ---- */
+
 body {  
     background: -webkit-linear-gradient(180deg, #000000 10%, #53346D 90%); /* Chrome 10+, Saf5.1+ */
   background:    -moz-linear-gradient(180deg, #000000 10%, #53346D 90%); /* FF3.6+ */
@@ -6,8 +8,6 @@ body {
   background:         linear-gradient(180deg, #000000 10%, #53346D 90%); /* W3C */
 background-repeat: no-repeat;
 }
-
-/* Headings ---- */
 
 h1 {
     font-family: 'Cinzel Decorative', cursive;
@@ -21,26 +21,6 @@ ul {
     font-family: 'Poiret One', cursive;
     color: white;
 }
-#myself {
-    border-radius: 60px;
-    height: 300px;
-    width: 200px;
-    margin: auto;
-} 
-
-h2, h3 {
-    color: white;
-    font-family: 'Cinzel Decorative', cursive;
-}
-
-.tagline {
-    
-    font-family: 'Poiret One', cursive;
-    text-align: center;
-    color: white;
-}
-
-/* Content ---- */
 
 p, blockquote {  
     color: white; 
@@ -51,6 +31,28 @@ ol {
     color: white;
     font-family: 'Cinzel Decorative', cursive;
 }
+
+h2, h3 {
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+/* Content ---- */
+
+.tagline {
+    
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    color: white;
+}
+
+#myself {
+    border-radius: 60px;
+    height: 300px;
+    width: 200px;
+    margin: auto;
+} 
 
 /* About Me Layout ---- */ 
 
@@ -113,9 +115,9 @@ a:hover {
 
 /* Clear Fix ---- */
 
-.group:after {
-  content: "";
-  display: table;
+.second-content:after {
+  content: " ";
+  display: block;
   clear: both;
 }
 
