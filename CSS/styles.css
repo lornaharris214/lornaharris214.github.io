@@ -49,7 +49,6 @@ p, blockquote {
 
 li {
     color: white;
-    font-family: 'Cinzel Decorative', cursive;
     text-align: center;
     display: inline-block;
 }
@@ -69,7 +68,8 @@ li {
 
 .second-content {
     text-align: center;
-    
+    margin: 0 auto;
+    width: 500px; 
 }
 /* Resume Layout ---- */ 
 
