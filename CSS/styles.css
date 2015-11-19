@@ -2,6 +2,14 @@ body {
     background: url(../img/dark_fish_skin_@2X.png)
 }
 
+
+/** Header **/
+header {
+    height: 400px;
+    background: #541253;
+    padding: 10px 10px 10px 10px;
+}
+
 /* Headings ---- */
 
 h1 {
@@ -15,12 +23,6 @@ ul {
     list-style: none;
     font-family: 'Poiret One', cursive;
     color: white;
-}
-
-header {
-    height: 400px;
-    background: #541253;
-    padding: 10px 10px 10px 10px;
 }
 
 /** Navigation **/
