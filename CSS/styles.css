@@ -1,10 +1,5 @@
 body {  
-    background: -webkit-linear-gradient(180deg, #000000 10%, #53346D 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(180deg, #000000 10%, #53346D 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(180deg, #000000 10%, #53346D 90%); /* IE10 */
-  background:      -o-linear-gradient(180deg, #000000 10%, #53346D 90%); /* Opera 11.10+ */
-  background:         linear-gradient(180deg, #000000 10%, #53346D 90%); /* W3C */
-background-repeat: no-repeat;
+    background: url(../img/dark_fish_skin_@2X.png)
 }
 
 /* Headings ---- */
@@ -20,6 +15,31 @@ ul {
     list-style: none;
     font-family: 'Poiret One', cursive;
     color: white;
+}
+
+header {
+    height: 400px;
+    background: #541253;
+    padding: 10px 10px 10px 10px;
+}
+
+/** Navigation **/
+
+.navigation {
+    position: fixed;
+    background: black;
+    z-index: 1;
+    padding-bottom: 10px;
+    width: 100%;
+    top: 0;
+    padding-top: 10px;
+}
+nav {
+    text-align: center;
+    display: block;
+}
+nav a {
+    padding: 10px 10px 10px 10px;
 }
 
 #myself {
@@ -92,9 +112,6 @@ a:hover {
     border-bottom: 2px solid white;
 }
 
-/* Clear Fix ---- */
-
-
 /* footer ---- */
 #instagram, #facebook {
     height: 25px;
@@ -103,6 +120,13 @@ a:hover {
 
 footer {
     text-align: center;
+}
+
+.footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background: black;
 }
 
 
