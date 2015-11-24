@@ -29,19 +29,26 @@ ul {
 
 .navigation {
     position: fixed;
-    background: black;
+    background: grey;
     z-index: 1;
-    padding-bottom: 10px;
-    width: 100%;
+    padding: 10px 0px 10px 0px;
+    margin: 0;
+    height: 100%;
+    width: 5%;
     top: 0;
-    padding-top: 10px;
+    left: 0;
 }
-nav {
+nav a img {
     text-align: center;
-    display: block;
+    width: 70%;
 }
-nav a {
-    padding: 10px 10px 10px 10px;
+nav ul {
+    text-align: center;
+}
+nav li {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    display: block;
 }
 
 #myself {
@@ -110,7 +117,6 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: palevioletred;
     border-bottom: 2px solid white;
 }
 
@@ -121,14 +127,14 @@ a:hover {
 }
 
 footer {
-    text-align: center;
+    text-align: right;
+    bottom: 0;
+    right: 0;
 }
 
 .footer {
     width: 100%;
     bottom: 0;
-    position: fixed;
-    background: black;
 }
 
 
