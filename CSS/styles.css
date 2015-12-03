@@ -109,7 +109,7 @@ li {
     border-radius: 30px;
 }
 
-/* links ---- */
+/* Links ---- */
 
 a:link, a:visited {
     color: white;
@@ -121,7 +121,17 @@ a:hover {
     border-bottom: 2px solid white;
 }
 
-/* footer ---- */
+/* Gallery ---- */
+
+.gallery {
+    height: 600px;
+}
+
+.gallery item {
+    background: none;
+}
+
+/* Footer ---- */
 #instagram, #facebook {
     height: 25px;
     width: 25px;
