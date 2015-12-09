@@ -1,6 +1,6 @@
 /** Global **/
 body {
-    background: url(../IMG/congruent_pentagon.png);
+    background: url(../img/congruent_pentagon.png);
 }
 
 
@@ -16,7 +16,7 @@ Aquamarine: R:127 G:255 B:212 A:255
 header {
     height: 25%;
     width: 100%;
-    background: url(../IMG/charcoal_drawing.jpg);
+    background: grey;
     background-position: center center;
     background-size: cover;
     padding-top: 50px;
