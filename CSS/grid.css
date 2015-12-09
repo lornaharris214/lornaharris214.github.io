@@ -41,9 +41,7 @@ img {
 		min-height: 1px;
 		padding-left: 10px;
 		padding-right: 10px;
-        margin-top: 10px;
 		margin-left: 2%;
-        margin-bottom: 10px;
 	}
 	.grid-container > [class^="grid-"]:first-child {
 		margin-left: 0;
@@ -107,3 +105,12 @@ img {
 		max-width: 1100px;
 	}
 }
+
+
+
+
+
+
+
+
+
