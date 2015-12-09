@@ -230,7 +230,7 @@ li {
     padding: 0px;
     z-index: 99;
     text-align: center;
-    background: rgba(127, 255, 212, 0.5);
+    background: rgba(127, 255, 212, 0.8);
 }
 
 .lornaimg {
@@ -244,13 +244,13 @@ li {
     float: left;
     width: 200px;
     padding-top: 15px;
-    color: rgb(128, 128, 128);
+    color: black;
     font-family: 'Open Sans', sans-serif; 
 }
 
 .lb-overlay div h3 {
-    color: rgb(128, 128, 128);
-    font-size: 32px;
+    color: black;
+    font-size: 38px;
     float: left;
     text-align: center;
     font-family: 'Gentium Book Basic', serif;
