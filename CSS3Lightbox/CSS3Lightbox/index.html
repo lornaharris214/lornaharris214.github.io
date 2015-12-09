@@ -1,84 +1,87 @@
-<DOCTYPE! html>
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../CSS/normalize.css">
-  <link rel="shortcut icon" href="../IMG/lh_logo1.png">
-  <link rel="stylesheet" href="../CSS/grid.css">
-  <link href='https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic|Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="../CSS/style3.css">	  
-  <link rel="stylesheet" href="../CSS/styles.css">	        
-</head>
-<body id="page">
-    <aside>
-        <img src="../img/lh_logo.png" alt="logo" id="logo">
-        <h1>Lorna Harris</h1>
-        <p>A painter who is studying graphic design and communications. </p>
-            <nav role='navigation' id="header-nav" class="grid-container">
-                <ul class="grid-12">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../resume/resume.html">Resume</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="../about/about.html">About Lorna</a></li>
-                </ul>
-            </nav> 
-        
-    </aside>
-    <header>
-            
-    </header>
-        <article id="article2">
-            <h2>Portfolio</h2>
-            <p>Enjoy some of my favorite paintings, drawings, and design pieces.</p>
-        </article>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>CSS3 Lightbox</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="CSS3 Lightbox - A CSS-only lightbox" />
+        <meta name="keywords" content="css3, lightbox, overlay, effect, images, thumbnails" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body id="page">
         <div class="container">
-
+			<!-- Codrops top bar -->
+            <div class="codrops-top">
+                <a href="http://tympanus.net/Tutorials/SlopyElements/">
+                    <strong>&laquo; Previous Demo: </strong>Slopy Elements with CSS3
+                </a>
+                <span class="right">
+					<a href="http://www.behance.net/gallery/w-h-i-t-e/269865" target="_blank">Images by Joanna Kustra</a>
+					<a href="http://creativecommons.org/licenses/by-nc/3.0/" target="_blank">CC BY-NC 3.0</a>
+                    <a href="http://tympanus.net/codrops/2011/12/26/css3-lightbox/">
+                        <strong>Back to the Codrops Article</strong>
+                    </a>
+                </span>
+                <div class="clr"></div>
+            </div><!--/ Codrops top bar -->
+			<header>
+				<h1>CSS3 <span>Lightbox</span></h1>
+				<h2>A simple CSS-only lightbox experiment</h2>
+				<p class="codrops-demos">
+					<a class="current-demo" href="index.html">Demo 1</a>
+					<a href="index2.html">Demo 2</a>
+					<a href="index3.html">Demo 3</a>
+				</p>
+			</header>
 			<section>
 				<ul class="lb-album">
 					<li>
 						<a href="#image-1">
-							<img src="../img/matilda_thumb.jpg" alt="image01" class="lornaimg">
-							<span>Sleepy Time</span>
+							<img src="images/thumbs/1.jpg" alt="image01">
+							<span>Pointe</span>
 						</a>
 						<div class="lb-overlay" id="image-1">
-							<img src="../img/matilda.jpg" alt="image01" />
-							<div>
-								<h3>Sleepy Time</h3>
-								<p>Painting of Matilda done December 7th, 2015 for Jessica</p>
-								<a href="#image-10" class="lb-prev">Prev</a>
-								<a href="#image-2" class="lb-next">Next</a>
-							</div>
 							<a href="#page" class="lb-close">x Close</a>
+							<img src="images/full/1.jpg" alt="image01" />
+							<div>
+								<h3>pointe <span>/point/</h3>
+								<p>Dance performed on the tips of the toes</p>
+							</div>
+							
 						</div>
 					</li>
 					<li>
 						<a href="#image-2">
-							<img src="../img/matilda1_thumb.jpg" alt="image02" class="lornaimg">
-							<span>Moon or Bust!</span>
+							<img src="images/thumbs/2.jpg" alt="image02">
+							<span>Port de bras</span>
 						</a>
 						<div class="lb-overlay" id="image-2">
-							<img src="../img/matilda1.jpg" alt="image02" />
+							<img src="images/full/2.jpg" alt="image02" />
 							<div>							
-								<h3>Moon or Bust!</h3>
-								<p>Painting of Matilda done December 7th, 2015 for Jessica</p>
-								<a href="#image-1" class="lb-prev">Prev</a>
-								<a href="#image-3" class="lb-next">Next</a>
+								<h3>port de bras <span>/ˌpôr də ˈbrä/</h3>
+								<p>An exercise designed to develop graceful movement and disposition of the arms</p>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
 					</li>
 					<li>
 						<a href="#image-3">
-							<img src="../img/rose_thumb.jpg" alt="image03" class="lornaimg">
-							<span>Rose</span>
+							<img src="images/thumbs/3.jpg" alt="image03">
+							<span>Plié</span>
 						</a>
 						<div class="lb-overlay" id="image-3">
-							<img src="../img/rose.jpg" alt="image03" />
+							<img src="images/full/3.jpg" alt="image03" />
 							<div>							
-								<h3>Rose</h3>
-								<p>A painting done November 28th, 2015 for Lynda</p>
-								<a href="#image-2" class="lb-prev">Prev</a>
-								<a href="#image-4" class="lb-next">Next</a>
+								<h3>pli·é <span>/plēˈā/</h3>
+								<p>A movement in which a dancer bends the knees and straightens them again</p>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
@@ -93,8 +96,6 @@
 							<div>							
 								<h3>a·da·gio <span>/əˈdäjō/</h3>
 								<p>A movement or composition marked to be played adagio</p>
-								<a href="#image-3" class="lb-prev">Prev</a>
-								<a href="#image-5" class="lb-next">Next</a>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
@@ -109,8 +110,6 @@
 							<div>							
 								<h3>frap·pé<span>/fraˈpā/</h3>
 								<p>Involving a beating action of the toe of one foot against the ankle of the supporting leg</p>
-								<a href="#image-4" class="lb-prev">Prev</a>
-								<a href="#image-6" class="lb-next">Next</a>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
@@ -125,8 +124,6 @@
 							<div>							
 								<h3>glis·sade <span>/gliˈsäd/</h3>
 								<p>One leg is brushed outward from the body, which then takes the weight while the second leg is brushed in to meet it</p>
-								<a href="#image-5" class="lb-prev">Prev</a>
-								<a href="#image-7" class="lb-next">Next</a>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
@@ -141,8 +138,6 @@
 							<div>							
 								<h3>je·té <span>/zhə-ˈtā/</h3>
 								<p>A springing jump made from one foot to the other in any direction</p>
-								<a href="#image-6" class="lb-prev">Prev</a>
-								<a href="#image-8" class="lb-next">Next</a>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
@@ -157,8 +152,6 @@
 							<div>							
 								<h3>pi·qué <span>/pēˈkā/</h3>
 								<p>Strongly pointed toe of the lifted and extended leg sharply lowers to hit the floor then immediately rebounds upward</p>
-								<a href="#image-7" class="lb-prev">Prev</a>
-								<a href="#image-9" class="lb-next">Next</a>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
@@ -173,8 +166,6 @@
 							<div>							
 								<h3>ar·a·besque <span>/ˌarəˈbesk/</h3>
 								<p>Position of the body supported on one leg, with the other leg extended behind the body with the knee straight</p>
-								<a href="#image-8" class="lb-prev">Prev</a>
-								<a href="#image-10" class="lb-next">Next</a>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
@@ -189,8 +180,6 @@
 							<div>							
 								<h3>bal·le·ri·na <span>/ˌbaləˈrēnə/</h3>
 								<p>A female ballet dancer</p>
-								<a href="#image-9" class="lb-prev">Prev</a>
-								<a href="#image-1" class="lb-next">Next</a>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
@@ -198,10 +187,5 @@
 				</ul>
 			</section>
         </div>
-    
-    <footer>
-    <p>fjhsdokfjsldkfjslkdf</p>
-    </footer>
-    
-</body>
+    </body>
 </html>
