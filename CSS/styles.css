@@ -191,13 +191,26 @@ footer {
     background: aquamarine;
     float: left;
     width: 200px;
-    padding-left: 10px;
+    padding-right: 10px;
     bottom: 0;
     position: fixed;
     z-index: 10;
 }
 
+footer ul {
+    list-style: none;
+    display: inline-block;
+}
 
+#facebook {
+    background: url(../img/iconmonstr-facebook-4-icon-256.png) no-repeat;
+    background-size: 32px;
+}
+
+#instagram {
+    background: url(../img/iconmonstr-instagram-9-icon-256.png) no-repeat;
+    background-size: 32px;
+}
 /** Clear Fix **/
 
 .container:after {
