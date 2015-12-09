@@ -187,7 +187,8 @@ a:hover {
 /** Footer **/
 
 footer {
-    text-align: left;
+    text-align: center;
+    font-size: .75em;
     background: aquamarine;
     float: left;
     width: 200px;
@@ -197,20 +198,33 @@ footer {
     z-index: 10;
 }
 
-footer ul {
-    list-style: none;
-    display: inline-block;
+#instagram, #facebook {
+    height: 16px;
+    width: 16px;
 }
 
-#facebook {
-    background: url(../img/iconmonstr-facebook-4-icon-256.png) no-repeat;
-    background-size: 32px;
+footer a:link, footer a:visited {
+  color: #6E4C32;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
 }
 
-#instagram {
-    background: url(../img/iconmonstr-instagram-9-icon-256.png) no-repeat;
-    background-size: 32px;
+footer a:visited {
+  color: lightslategrey;
 }
+
+footer a:hover {
+  background: #CCCCCC;
+  margin-bottom: 10px;
+  padding-top: 5px;
+}
+
 /** Clear Fix **/
 
 .container:after {
