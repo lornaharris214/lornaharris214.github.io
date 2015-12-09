@@ -151,7 +151,7 @@ introduction li img {
 #dog:target {
     z-index: 1;
 }
-
+ 
 #space:target {
     z-index: 2;
 }
