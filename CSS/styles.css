@@ -198,6 +198,15 @@ footer {
 }
 
 
+/** Clear Fix **/
+
+.container:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+
 /** Media Queries **/
 
 @media all and (max-width: 780px) {
@@ -307,12 +316,4 @@ footer {
         text-decoration: none;
         text-align: center;
     }
-}
-
-/** Clear Fix **/
-
-.container:after {
-  content:"";
-  display:table;
-  clear:both;
 }
