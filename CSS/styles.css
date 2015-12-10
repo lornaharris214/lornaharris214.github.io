@@ -196,6 +196,13 @@ a:hover {
     margin-left: 200px;
 }
 
+.skills {
+    text-align: left;
+}
+
+.mobile-container {
+    display: none;
+}
 /** Footer **/
 
 footer {

@@ -1,0 +1,18 @@
+/** CSS for the Mobile Portfolio. Cancels out the other portfolio. **/
+
+@media all and (max-width: 780px) {
+    
+    .container {
+       display: none;
+        }
+    
+    .mobile-container {
+        display: block;
+        test-align: center;
+    }
+    
+    .mobile-container img {
+        width: 100%
+    }
+    
+}
