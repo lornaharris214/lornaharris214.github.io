@@ -299,9 +299,7 @@ footer a:hover {
         }
    
     .container {
-        left: 0;
-        margin: auto;
-        padding: none;
+       display: none;
         }
     
     footer {
