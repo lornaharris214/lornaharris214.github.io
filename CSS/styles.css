@@ -88,7 +88,7 @@ nav li {
 .col {
 	display: inline-block;
 	padding: 20px;
-    margin-left: 200px;
+    margin-left: 300px;
 	margin-right: -5px;
 	vertical-align: top;
     font-family: 'Open Sans', sans-serif; 
@@ -104,6 +104,7 @@ nav li {
 }
 .secondary-content {
 	width: 20%;
+    margin-left: 50px;
     text-align: center;
 }
 
