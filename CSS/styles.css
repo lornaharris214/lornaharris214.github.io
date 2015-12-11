@@ -204,6 +204,30 @@ a:hover {
 .mobile-container {
     display: none;
 }
+
+/* Contact Me Page */
+
+    .secondary-content img {
+        width: 25px;
+        heigh: 25px
+    }
+    
+    .secondary-content a {
+        width: 30px;
+        margin-right: 10px;
+    }
+    
+    .secondary-content ul {
+        text-align: left;
+        list-style: none;
+        font-size: 1em;
+    }
+    .secondary-content li {
+        list-style: none;
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif; 
+    }
+    
 /** Footer **/
 
 footer {
@@ -310,6 +334,28 @@ footer a:hover {
        display: none;
         }
     
+    .secondary-content img {
+        width: 15px;
+        heigh: 15px
+    }
+    
+    .secondary-content a {
+        width: 20px;
+        margin-right: 5px;
+    }
+    
+    .secondary-content ul {
+        text-align: left;
+        list-style: none;
+        font-size: 1em;
+    }
+    .secondary-content li {
+        list-style: none;
+        font-size: .5em;
+        font-family: 'Open Sans', sans-serif; 
+    }
+    
+/*  Footer  */
     footer {
         background: aquamarine;
         padding: none;
@@ -351,7 +397,6 @@ footer a:hover {
             font-size: 32px;
             position: relative;
         }
-
 
         .secondary-content {
             width: 25%;
@@ -441,6 +486,26 @@ footer a:hover {
     introduction li img {
         height: 40px;
         width: 60px;
+    }
+    
+    .secondary-content img {
+        width: 25px;
+        heigh: 25px
+    }
+    
+    .secondary-content a {
+        width: 30px;
+        margin-right: 10px;
+    }
+    
+    .secondary-content ul {
+        text-align: left;
+        font-size: .25em;
+    }
+      .secondary-content li {
+        list-style: none;
+        font-size: .25em;
+        font-family: 'Open Sans', sans-serif; 
     }
 
 }
