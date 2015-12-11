@@ -562,11 +562,11 @@ footer a:hover {
     
     .secondary-content ul {
         text-align: left;
-        font-size: .25em;
+        font-size: 1em;
     }
       .secondary-content li {
         list-style: none;
-        font-size: .5em;
+        font-size: 1em;
         font-family: 'Open Sans', sans-serif; 
     }
       .self {
