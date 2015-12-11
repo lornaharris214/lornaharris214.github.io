@@ -559,6 +559,9 @@ footer a:hover {
         width: 30px;
         margin-right: 10px;
     }
+     .secondary-content p {
+         font-size: 1em;
+    }
     
     .secondary-content ul {
         text-align: left;
