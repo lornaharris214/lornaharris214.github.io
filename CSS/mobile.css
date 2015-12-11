@@ -15,4 +15,5 @@
     }
     .mobile-container img {
         width: 50%;
+        border-radius: 25px;
     }
