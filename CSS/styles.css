@@ -3,7 +3,13 @@ body {
     background: url(../img/congruent_pentagon.png);
 }
 
+p {
+    font-family: 'Open Sans', sans-serif; 
+}
 
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif; 
+}
 /** fonts to use: 
 font-family: 'Gentium Book Basic', serif;
 font-family: 'Open Sans', sans-serif; 
@@ -147,7 +153,7 @@ nav li {
 
 #article2 h2 {
     text-align: center;
-    font-family: 'Gentium Book Basic', serif;
+    font-family: 'Open Sans', sans-serif; 
     font-size: 2em;
 }
 
@@ -282,7 +288,7 @@ footer a:hover {
         z-index: 1;
         float: none;
         width: 100%;
-        height: 11.5em;
+        height: 11em;
         padding-top: 5px;
     }
     
@@ -319,8 +325,15 @@ footer a:hover {
         text-decoration: none;
         text-align: center;
     }
-    header, #article1 {
+   
+    header {
         display: none;
+    }
+    
+    #article1 {
+        height: 10px;
+        color: grey;
+        opacity: .5;
     }
     
     #article2, #article3 {
@@ -335,6 +348,15 @@ footer a:hover {
        display: none;
         }
     
+    #article2 {
+        padding-top: 100px;
+        
+    }
+    
+    .primary-content h2 {
+        margin-top: 150px;
+        
+    }
     .secondary-content li img {
         width: 15px;
         heigh: 15px
@@ -439,7 +461,7 @@ footer a:hover {
         z-index: 1;
         float: none;
         width: 100%;
-        height: 6em;
+        height: 8em;
         text-align: left;
         padding-top: 5px;
     }

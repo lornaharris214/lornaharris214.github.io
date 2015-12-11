@@ -8,12 +8,26 @@
     
     .mobile-container {
         display: block;
+        padding-top: 100px;
     }
     
     .mobile-container h2, .mobile-container h3, .mobile-container p {
         text-align: center;
+        font-family: 'Gentium Book Basic', serif;
+        font-style: italic;
+    }
+    
+    .mobile-container h3 {
+        font-size: 1em;
     }
     .mobile-container img {
         width: 50%;
         border-radius: 25px;
     }
+    
+    #article2 {
+        margin-top: 20px;
+        
+    }
+    
+}
