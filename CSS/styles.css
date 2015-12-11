@@ -173,7 +173,41 @@ nav li {
     margin-left: 15px;
 }
 
-/** Image Practice **/
+
+/* Forms */
+
+
+
+
+form {
+    width: 100%;
+}
+
+
+input, textarea {
+    width: 60%;
+    margin: auto;
+    display: block;
+    background: rgba(128, 128, 128, .5);
+    border-radius: 25px;
+    align-items: center;
+    border-color: none;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+textarea {
+   padding-left: 10px;
+}
+
+.sendbutton {
+    width: 20%;
+    margin: auto;
+    margin-top: 10
+    background-color: #dcfbd2;
+}
+
+
+
 
 
 /** Links **/
@@ -461,7 +495,7 @@ footer a:hover {
         z-index: 1;
         float: none;
         width: 100%;
-        height: 8em;
+        height: 6em;
         text-align: left;
         padding-top: 5px;
     }
