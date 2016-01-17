@@ -288,3 +288,13 @@ li {
     height: 25px;
     width: 25px;
 }
+
+.bigpictures {
+    width: 500px;
+    height: auto;
+}
+
+.selfportrait {
+    height: 500px;
+    width: auto;
+}
